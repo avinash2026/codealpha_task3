@@ -8,7 +8,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: white;
     color: #333;
 }
 
@@ -24,17 +24,22 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 20px;
-}
+} 
 
 nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    padding: 3px;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
     color: #f4f4f4;
+    border: 2px solid white;
+   
+    border-radius: 3px;
+    transition: 3s;
 }
 
 /* Hero Section */
@@ -100,7 +105,8 @@ section h2 {
 
 #about a {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-left: 470px;
     color: #333;
     background-color: #ff6347;
     padding: 10px 20px;
